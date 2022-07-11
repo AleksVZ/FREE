@@ -132,7 +132,23 @@
 *{
     margin: 0;
     padding: 0;
-} 
+    } 
+
+p{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+}
+h3{
+    font-family: '20 Kopeek';
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 110%;
+    color: #181818;
+}
 
 //TODO                                     main_banner
 
@@ -212,17 +228,65 @@ header{
 
 //TODO                                       brand style
 
-.row_brand_style{
-    p{
-        font-family: '20 Kopeek';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 140%;
-        color: #181818;
-    }
-
+.brand_style{
+    padding-top: 70px;
+    margin-bottom: 141px;
 
 }
 
+
+//TODO                              name_And_Logo
+
+
+
+.name_And_Logo{
+    padding-bottom: 120px;
+
+    h2{
+        font-family: '20 Kopeek';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 100%;
+        color: #181818;
+
+        margin-bottom: 40px;
+    }
+    .number{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 100%;
+    color: #181818;
+
+    display: block;
+    }
+
+    h5{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+    margin-top: 25px;
+    }
+    article{
+        p{
+        font-family: '20 Kopeek';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        color: #181818;
+        }
+    }
+}
+
+//TODO                                      how much
+
+.how_much{
+    padding-bottom: 150px;
+}
 
