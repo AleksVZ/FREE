@@ -288,5 +288,14 @@ header{
 
 .how_much{
     padding-bottom: 150px;
+
+    p{
+        &:last-of-type{
+            padding: 11px;
+            color: #FFFFFF;
+            background: #2B59C3;
+            border-radius: 5px;
+        }
+    }
 }
 
