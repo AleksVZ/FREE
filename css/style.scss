@@ -295,6 +295,15 @@ header{
             color: #FFFFFF;
             background: #2B59C3;
             border-radius: 5px;
+
+            .fa-solid {
+                font-family: "Font Awesome 6 Free";
+                font-weight: 900;
+                content: "\f04b";
+                font-size: 14px;
+                display: inline-block;
+                transform: rotate(90deg);
+            }
         }
     }
 }
